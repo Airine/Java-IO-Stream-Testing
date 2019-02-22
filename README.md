@@ -115,7 +115,7 @@
  In upper situation, InputStream and Reader use an array with enough size to read file content at once. The performance 
  gap between them is not obvious.
  
- Test file: https://github.com/Airine/Java-IO-Stream-Testing/src/流浪地球_utf8.txt
+ Test file: https://github.com/Airine/Java-IO-Stream-Testing/blob/master/src/流浪地球_utf8.txt
  
  ### Output (OutputStream vs. Writer)
  
