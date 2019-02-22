@@ -4,3 +4,5 @@
 *.class
 /out/*
 /out
+src/copyByte.txt
+src/copyChar.txt

@@ -7,12 +7,12 @@ public class BufferedDemo {
 
 	public static void main(String[] args) {
 		String fileName = "src/流浪地球_utf8.txt";
-		boolean buffered = false;
-//		boolean buffered = true;
+//		boolean buffered = false;
+		boolean buffered = true;
 		long startTime = System.currentTimeMillis();
 		try{
-			copyFileByByte(fileName, buffered);
-//			copyFileByChar(fileName, buffered);
+//			copyFileByByte(fileName, buffered);
+			copyFileByChar(fileName, buffered);
 		} catch (IOException e){
 			e.printStackTrace();
 		}
